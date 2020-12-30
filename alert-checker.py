@@ -4,8 +4,8 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 #Set Destination Tenant Keys
-dest_accessKey = "53c7b9e0-b5e6-45db-998c-484e652d83bf"
-dest_secretKey = "bQ89xtTfCQhXYhJGXonOYLmT7F8="
+dest_accessKey = ""
+dest_secretKey = ""
 
 #Specify destination tenant API address to compare alerts to
 dest_apiUrl = "https://api2.prismacloud.io/v2/alert?timeType=relative&timeAmount=1&timeUnit=year&detailed=true&alert.status=Open"
