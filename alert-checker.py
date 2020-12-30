@@ -57,7 +57,6 @@ df.to_csv('matches.csv')
 #Grab Alert IDs from matches.csv and dismiss them
 df = pd.read_csv('matches.csv')
 alertIds = df['Alert ID'].to_list()
-print(alertIds)
 
 dismiss_url = "https://api2.prismacloud.io/alert/dismiss"
 
