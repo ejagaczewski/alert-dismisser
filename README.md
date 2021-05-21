@@ -10,7 +10,7 @@ Run dismiss-puller.py before migrating accounts to a new tenant to generate a li
 
 Run alert-dismisser.py after migrating accounts to a new tenant to dismiss alerts which were dismissed previously on the old tenant.
 
-# Warning : This is a proof of concept. Test prior to running in production. 
+# Warning : This is a proof of concept. Test. 
 
 ## Requirements and Dependencies
 
